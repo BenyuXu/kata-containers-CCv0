@@ -53,7 +53,7 @@ const (
 	//
 	// Source: https://github.com/confidential-containers-demo/scripts/tree/main/guest-owner-proxy
 	//
-	sevGuestOwnerProxyClient = "/opt/sev/guest-owner-proxy/gop-client.py"
+	sevGuestOwnerProxyClient = "/opt/csv/guest-owner-proxy/gop-client.py"
 )
 
 var qemuPaths = map[string]string{
