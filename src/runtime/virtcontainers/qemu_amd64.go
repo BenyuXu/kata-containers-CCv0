@@ -308,7 +308,6 @@ func (q *qemuArchBase) setupGuestAttestation(ctx context.Context, config govmmQe
 					dev.CertFilePath = gop_result[0]
 					dev.SessionFilePath = gop_result[1]
 					dev.DeviceID = gop_result[2]
-					dev.KernelHashes = true
 					config.Devices[i] = dev
 					break
 				}
